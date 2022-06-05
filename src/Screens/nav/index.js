@@ -11,7 +11,7 @@ export const NavBar = () => {
     
     return ( 
         <div className={appBar}>
-            <h1>ISMOILKHON</h1>
+            <h1>Ismoil Bahromov</h1>
             <ul>
                 <li>HOME</li>
                 <li>ABOUT</li>
