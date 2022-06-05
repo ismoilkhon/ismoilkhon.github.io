@@ -1,0 +1,108 @@
+@media only screen and (max-width: 800px){
+    .container{
+        flex-direction: column;
+    } 
+    .aboutInfo {
+        margin-bottom: 5%;
+    }
+}
+@media only screen and (max-width: 400px){
+    .outerDiv{
+        flex-direction: column;
+        align-items: center;
+    }
+    .innerDiv{
+        margin-bottom: 5%;
+        width: 70%;
+    }
+}
+.container{
+    width: 87%;
+    display: flex;
+    margin-left: 7%;
+    margin-top: 125px;
+    margin-bottom: 125px;
+    background-color: #FFFFFF;
+}
+.aboutInfo {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.aboutInfo h4{
+    font-size: 36px;
+    margin-bottom: 18px;
+    color: rgb(34, 34, 34);
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+.aboutInfo p{
+    margin-bottom: 40px;
+    color: rgb(119, 119, 119);
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+.outerDiv{
+    display: flex;
+    justify-content: space-evenly;
+}
+.innerDiv{
+    padding: 20px 10px;
+    text-align: left;
+    border-radius: 5px;
+    transition: all 300ms linear 0s;
+    border: 1px solid rgb(238, 238, 238);
+}
+.innerDiv:hover{
+    box-shadow: 0px 0px 10px 5px rgba(34, 60, 80, 0.2);
+}
+.icon{
+    font-size: 20px;
+    color: rgb(118, 109, 255);
+}
+.innerDiv h4 {
+    font-size: 24px;
+    margin-top: 5px;
+    margin-bottom: 0%;
+    font-weight: bold;
+    color: rgb(34, 34, 34);
+    font-family: "Heebo", sans-serif;
+}
+.innerDiv p{
+    margin-top: 5px;
+    margin-bottom: 0%;
+    font-size: 16px;
+    color: rgb(119, 119, 119);
+    font-family: "Roboto", sans-serif;
+}
+.skills{
+    width: 100%;
+}
+.skill{
+    margin: 10px 30px;
+}
+.skill h4{
+    font-size: 14px;
+    padding-top: 10px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: rgb(34, 34, 34);
+    font-family: 'Roboto', sans-serif;
+}
+.progresBorder{
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid rgb(238, 238, 238);
+}
+.progres{
+    height: 10px;
+    border-radius: 10px;
+    background: rgb(232, 232, 232);
+}
+.progresBar{
+    height: 10px;
+    border-radius: 5px;
+    vertical-align: middle;
+    align-self: center;
+    background: linear-gradient(90deg, rgb(118, 109, 255) 0%, rgb(136, 243, 255) 100%);
+}

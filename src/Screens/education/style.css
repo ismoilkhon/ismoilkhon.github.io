@@ -1,0 +1,49 @@
+.edu{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgb(118, 109, 255) 0%, rgb(136, 243, 255) 100%);
+}
+.edu h4 {
+    padding: 10px 20px;
+    background-color: aliceblue;
+    color: black;
+}
+.innerEdu{
+    width: 50%;
+    height: 100%;
+    margin-left: 25%;
+    display: flex;
+    border: 1px dashed red;
+    justify-content: space-evenly;
+}
+.innerEdu ul {
+    border: 1px dashed gray;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.innerEdu ul li {
+    list-style: none;
+    color: rgba(255,255,255,.75);
+    padding-top: 20px;
+    font-size: 20px;
+}
+.divider{
+    margin-top: 5%;
+    width: 5px;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    background: rgb(25, 151, 224);
+}
+.circl{
+    width: 10px;
+    height: 10px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: aqua;
+    border: 1px solid white;
+}

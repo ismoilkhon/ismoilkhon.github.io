@@ -1,0 +1,111 @@
+@media only screen and (max-width: 700px) {
+    .contact {
+        width: 100%;
+        height: auto;
+    }
+
+    .contactItems {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .contactItems>* {
+        margin-bottom: 30px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 0 20px;
+    }
+}
+
+.contact {
+    width: 100%;
+    height: 50%;
+    background-color: black;
+}
+
+.contactItems {
+    padding-top: 120px;
+    display: flex;
+    margin-left: 6.5%;
+    justify-content: space-evenly;
+    width: 87%;
+}
+
+.contactItem h3 {
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 0;
+}
+
+.contactItem p {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Roboto", sans-serif;
+    color: #777;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.input {
+    display: flex;
+}
+
+.input input {
+    height: 40px;
+    background: transparent;
+    width: 100%;
+    padding: 0 15px;
+    border: 1px solid #1e233b;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    color: #ccc;
+    outline: none;
+}
+
+.input button {
+    border-radius: 0;
+    background: linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+    width: 42px;
+    height: 40px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.iconGroup {
+    display: flex;
+    color: #fff;
+}
+
+.iconGroup * {
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+}
+
+@media only screen and (max-width: 700px) {
+    .contact {
+        width: 100%;
+        height: auto;
+    }
+
+    .contactItems {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .contactItems>* {
+        border: 1px solid red;
+        margin-bottom: 30px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 0 20px;
+    }
+}

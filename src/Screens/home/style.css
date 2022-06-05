@@ -1,0 +1,107 @@
+@media screen and (max-width: 800px) {
+    .cont{
+        flex-direction: column;
+    }
+}
+
+.scrolled {
+    width: 87%;
+    display: flex;
+	padding-top: 160px;
+    margin-left: 6.5vw;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    box-shadow: -5px 20px 80px 10px rgba(102, 138, 165, 0.24);
+}
+.cont {
+    width: 87%;
+    display: flex;
+    margin-left: 6.5vw;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    box-shadow: -5px 20px 80px 10px rgba(102, 138, 165, 0.24);
+}
+.first{
+    width: 100%;
+    height: 90%;
+}
+.img {
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+    border-radius: 7%;
+}
+.second {
+    width: 100%;
+    text-align: left;
+    padding-left: 5%;
+    padding-top: 5%;
+    margin-right: 5%;
+}
+.second > *{
+    margin-bottom: 5%;
+}
+
+
+.second h6 {
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 2.1px;
+    color: rgb(34, 34, 34);
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+.second h3 {
+    font-size: 40px;
+    color: rgb(34, 34, 34);
+    text-transform: uppercase;
+}
+
+.second h4 {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(34, 34, 34);
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+.second p{
+    max-width: 540px;
+    color: rgb(119, 119, 119);
+    font-family: 'Roboto', sans-serif;
+}
+.info li{
+    cursor: pointer;
+    list-style: none;
+    margin-bottom: 10px;
+}
+.info li *{
+    width: 20;
+    height: 20;
+    color: rgb(118, 109, 255);
+}
+.info li a{
+    font-size: 18px;
+    padding-left: 30px;
+    color: rgb(119, 119, 119);
+}
+.links {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    margin: 20px;
+}
+.links li {
+    cursor: pointer;
+    list-style: none;
+    font-size: larger;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-right: 15px;
+    color: rgb(119, 119, 119);
+    background-color: #E8E8E8;
+}
+.links li:hover{
+    color: azure;
+    background: linear-gradient(90deg, rgb(118, 109, 255) 0%, rgb(136, 243, 255) 100%);
+}
