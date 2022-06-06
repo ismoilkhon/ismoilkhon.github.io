@@ -1,45 +1,20 @@
-.main {
-    width: 100%;
-    display: flex;
-    padding: 5% 0;
-    color: #FFFFFF;
-    justify-content: space-between;
+.container-fluid{
+	width: 86%;
+	margin: 0 7%;
 }
-.main h1{
-    margin-left: 10%;
+.mobile{
+	width: 80%;
+	margin: 0% 10%;
 }
-
-.main ul {
-    display: flex;
-    margin-right: 6.5%;
+.close{
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	width: 30%;
+	right: 5%; 
+	top: 5%;
+	background-color: #f0f8ff88;
 }
-.main ul li {
-    font-size: 16px;
-    list-style: none;
-    padding: 0px 20px;
-    font-family: sans-serif;
-}
-
-.appBar {
-    width: 100%;
-    position: fixed;
-    display: flex;
-    background-color: black;
-    color: #FFFFFF;
-}
-.appBar h1{
-    padding: 20px 0px;
-    margin-left: 10%;
-}
-
-.appBar ul {
-    padding: 30px 0px;
-    display: flex;
-    margin-left: 45%;
-}
-.appBar ul li {
-    font-size: 16px;
-    list-style: none;
-    padding: 0px 20px;
-    font-family: sans-serif;
+.open{
+	display: none;
 }

@@ -2,32 +2,32 @@ import './style.css'
 import { FaBook, FaDatabase, FaUsers } from 'react-icons/fa'
 export const About = () => {
     return (
-        <div className="container" >
+        <main className="container" id='about'>
             <div className="aboutInfo">
-                <h4>About myself</h4>
+                <h6>About myself</h6>
                 <p>As a student, I have been studying at the Tashkent University of Information Technologies for over two years. While my university years, I have learned many skills that every front-end software engineer needs. These include HTML, CSS, Javascript, and React.</p>
-                <div className="outerDiv">
-                    <div className="innerDiv">
+                <div className="grid">
+                    <article className="innerDiv">
                         <FaDatabase className='icon' />
-                        <h4>$2.5M</h4>
+                        <h6>$2.5M</h6>
                         <p>Total Donation</p>
-                    </div>
-                    <div className="innerDiv">
+                    </article>
+                    <article className="innerDiv">
                         <FaBook className='icon' />
-                        <h4>1465</h4>
+                        <h6>1465</h6>
                         <p>Total Ptojects</p>
-                    </div>
-                    <div className="innerDiv">
+                    </article>
+                    <article className="innerDiv">
                         <FaUsers className='icon' />
-                        <h4>3965</h4>
+                        <h6>3965</h6>
                         <p>Total Volunteers</p>
-                    </div>
+                    </article>
                 </div>
             </div>
 
             <div className="skills">
                 <div className='skill'>
-                    <h4>HTML 90%</h4>
+                    <h6>HTML 90%</h6>
                     <div className='progresBorder'>
                         <div className='progres'>
                             <div style={{width: '90%'}} className='progresBar'>
@@ -38,7 +38,7 @@ export const About = () => {
                 </div>
 
                 <div className='skill'>
-                    <h4>CSS 90%</h4>
+                    <h6>CSS 90%</h6>
                     <div className='progresBorder'>
                         <div className='progres'>
                             <div style={{width: '90%'}} className='progresBar'>
@@ -49,7 +49,7 @@ export const About = () => {
                 </div>
 
                 <div className='skill'>
-                    <h4>JAVASCRIPT 80%</h4>
+                    <h6>JAVASCRIPT 80%</h6>
                     <div className='progresBorder'>
                         <div className='progres'>
                             <div style={{width: '80%'}} className='progresBar'>
@@ -60,7 +60,7 @@ export const About = () => {
                 </div>
 
                 <div className='skill'>
-                    <h4>REACT 80%</h4>
+                    <h6>REACT 80%</h6>
                     <div className='progresBorder'>
                         <div className='progres'>
                             <div style={{width: '80%'}} className='progresBar'>
@@ -71,7 +71,7 @@ export const About = () => {
                 </div>
 
                 <div className='skill'>
-                    <h4>C 75%</h4>
+                    <h6>C 75%</h6>
                     <div className='progresBorder'>
                         <div className='progres'>
                             <div style={{width: '75%'}} className='progresBar'>
@@ -82,6 +82,6 @@ export const About = () => {
                 </div>
 
             </div>
-        </div>
+        </main>
     );
 }

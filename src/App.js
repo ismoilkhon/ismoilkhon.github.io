@@ -1,15 +1,16 @@
 import './App.css';
-import { About } from './Screens/about';
 import { Home } from './Screens/home';
-import { NavBar } from './Screens/nav';
+import { About } from './Screens/about';
 import { Services } from './Screens/servis';
 import { Contact } from './Screens/contact';
+import { NavBar } from './Screens/nav';
+import { MobileBar } from './Screens/nav/mobile';
 
 function App() {
 
 	return (
 		<div className="App">
-			<NavBar />
+			{ window.innerWidth > 500 ? <NavBar /> : <MobileBar /> }
 			<Home />
 			<About />
 			<Services />
