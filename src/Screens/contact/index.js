@@ -3,7 +3,7 @@ import { FaChevronRight, FaFacebook, FaInstagram, FaLinkedin, FaTelegramPlane } 
 
 export const Contact = () => {
     return (
-        <div className="contact" >
+        <div className="contact" id='contact' >
             <div className='contactItems' >
                 <div className="contactItem">
                     <h3>About Me</h3>
