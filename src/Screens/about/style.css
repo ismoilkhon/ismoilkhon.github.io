@@ -19,8 +19,7 @@
 .aboutCont{
 	width: 100%;
 	display: flex;
-	margin-left: 6%;
-	align-items: center;
+    align-items: center;
 }
 .container{
     width: 100%;
