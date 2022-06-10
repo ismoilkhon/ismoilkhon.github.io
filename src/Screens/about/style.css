@@ -16,10 +16,16 @@
         width: 70%;
     }
 }
+.aboutCont{
+	width: 100%;
+	display: flex;
+	margin-left: 6%;
+	align-items: center;
+}
 .container{
-    width: 90%;
+    width: 100%;
     display: flex;
-    margin: 125px 6%;
+    margin: 125px 0;
     background-color: #FFFFFF;
 }
 .aboutInfo {
