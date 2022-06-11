@@ -8,21 +8,18 @@ export const Services = () => {
 			<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in<br /> price. You may see some for as low as $.17 each.</p>
 			<div className="serviceCont">
 				<div className="serviceItem">
-					<div className='round'></div>
-					<FaBuilding className='sIcon' />
-					<h4>Architecture</h4>
+					<article className='round'></article>
+					<h4><FaBuilding className='sIcon' /> Architecture</h4>
 					<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $.17 each.</p>
 				</div>
 				<div className="serviceItem">
-					<div className='round'></div>
-					<FaBuilding className='sIcon' />
-					<h4>Interior design</h4>
+					<article className='round'></article>
+					<h4> <FaBuilding className='sIcon' /> Interior design</h4>
 					<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $.17 each.</p>
 				</div>
 				<div className="serviceItem">
-					<div className='round'></div>
-					<FaServicestack className='sIcon' />
-					<h4>Concept design</h4>
+					<article className='round'></article>
+					<h4><FaServicestack className='sIcon' /> Concept design</h4>
 					<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $.17 each.</p>
 				</div>
 			</div>
