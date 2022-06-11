@@ -1,12 +1,13 @@
 import './style.css'
-import { Divider } from '@chakra-ui/react';
+
 export const Education = () => {
     return (
-        <div className="edu">
-            <h4>My education</h4>
-            <h4>My experience</h4>
-
-            <div className='innerEdu'>
+        <article className="edu">
+				<div className='grid'>
+					<button role='button' >My education</button >
+					<button role='button' >My experience</button >
+				</div>
+            <article className='innerEdu'>
                 <ul>
                     <li>September 2004 to June 2013</li>
                     <li>September 2013 to June 2016</li>
@@ -22,7 +23,7 @@ export const Education = () => {
                     <li>College <br/> Namangan, Uzbekistan</li>
                     <li>University <br/> Tashkent, Uzbekistan</li>
                 </ul>
-            </div>
-        </div>
+            </article>
+        </article>
     );
 }

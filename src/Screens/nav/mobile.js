@@ -14,13 +14,13 @@ export const MobileBar = () => {
 				<li><strong>Ismoil</strong></li>
 			</ul>
 			<ul>
-				<li onClick={ openMenu }><FaBars /></li>
+				<li onClick={ openMenu }><FaBars/></li>
 				<li>
 					<ul className={open}>
-						<li><a href="#home">Home</a></li>
-						<li><a href="#about">About</a></li>
-						<li><a href="#services">Services</a></li>
-						<li><a href="#contact">Contact</a></li>
+						<li onClick={openMenu}><a href="#home">Home</a></li>
+						<li onClick={openMenu}><a href="#about">About</a></li>
+						<li onClick={openMenu}><a href="#services">Services</a></li>
+						<li onClick={openMenu}><a href="#contact">Contact</a></li>
 					</ul>
 				</li>
 			</ul>

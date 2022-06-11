@@ -13,7 +13,7 @@ export const Home = () => {
 					<Image className='img' src={avtar1} />
 				</article>
 
-				<article className='second'>
+				<main className='second'>
 					<h5>Hello everybody! <br/> I am</h5>
 					<h3>Ismoil Baxromov</h3>
 					<h5>Frontend Web Developer</h5>
@@ -31,7 +31,7 @@ export const Home = () => {
 						<li> <a href='https://www.linkedin.com/in/ismoilkhon-bakhromov-b5b248224'><FaLinkedinIn /></a> </li>
 					</ul>
 
-				</article>
+				</main>
 			</main>
 	);
 }

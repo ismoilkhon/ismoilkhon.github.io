@@ -18,14 +18,16 @@
 }
 .main {
     width: 100%;
-	padding: 2% 7% 3%;
+	padding: 1% 7%;
 	margin: 0%;
+	display: flex;
+	align-items: center;
 }
 
 .appBar {
 	z-index: 10;
 	width: 100%;
-	padding: 2% 7% 3%;
+	padding: 1% 7%;
     position: fixed;
     animation: navAnim 0.8s;
 	background-color: black;
