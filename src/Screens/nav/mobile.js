@@ -5,7 +5,7 @@ export const MobileBar = () => {
 
 	const [open, setOpen] = useState('open')
 	function openMenu(){
-		open == 'open' ? setOpen('close') : setOpen('open')
+		open === 'open' ? setOpen('close') : setOpen('open')
 	}
 
 	return (
