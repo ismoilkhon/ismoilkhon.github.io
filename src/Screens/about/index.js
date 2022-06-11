@@ -5,23 +5,29 @@ export const About = () => {
 		<div className="aboutCont">
 			<div className="container" id='about'>
 				<div className="aboutInfo">
-					<h6>About myself</h6>
+					<h4>About myself</h4>
 					<p>As a student, I have been studying at the Tashkent University of Information Technologies for over two years. While my university years, I have learned many skills that every front-end software engineer needs. These include HTML, CSS, Javascript, and React.</p>
 					<div className="grid">
 						<article className="innerDiv">
-							<FaDatabase className='icon' />
-							<h6>$2.5M</h6>
-							<p>Total Donation</p>
+							<article className="round1"></article>
+							<article className="round2"></article>
+							<article className="round3"></article>
+							<h1>$2.5M</h1>
+							<h5><FaDatabase className='icon' /> Total Donation</h5>
 						</article>
 						<article className="innerDiv">
-							<FaBook className='icon' />
-							<h6>1465</h6>
-							<p>Total Ptojects</p>
+							<article className="round1"></article>
+							<article className="round2"></article>
+							<article className="round3"></article>
+							<h1>1465</h1>
+							<h5><FaBook className='icon' /> Total Ptojects</h5>
 						</article>
 						<article className="innerDiv">
-							<FaUsers className='icon' />
-							<h6>3965</h6>
-							<p>Total Volunteers</p>
+							<article className="round1"></article>
+							<article className="round2"></article>
+							<article className="round3"></article>
+							<h1>3965</h1>
+							<h5><FaUsers className='icon' /> Total Volunteers</h5>
 						</article>
 					</div>
 				</div>

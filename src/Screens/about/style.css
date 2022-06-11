@@ -25,6 +25,7 @@
 .container{
     width: 100%;
     display: flex;
+	flex-direction: column;
     margin: 125px 0;
 }
 .aboutInfo {
@@ -33,21 +34,71 @@
     text-align: center;
 }
 .innerDiv{
-    padding: 5px 10px;
-    text-align: left;
-    border-radius: 5px;
-    transition: all 300ms linear 0s;
-    border: 1px solid rgb(238, 238, 238);
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+	margin: 3%;
+	transition: all 700ms ease-out;
 }
+.innerDiv > h1{
+	margin: 5% 0;
+	padding: 5% 0; 
+}
+.innerDiv > article{
+	margin: 0;
+	padding: 0%;
+	z-index: -1;
+	transition: all 700ms ease-out;
+
+}
+.round1{
+	top: -10vh;
+	left: -10vh;
+	width: 22vh;
+	height: 22vh;
+	position: absolute;
+	border-radius: 50%;
+}
+.round2{
+	top: 20%;
+	right: 7%;
+	width: 18vh;
+	height: 18vh;
+	position: absolute;
+	border-radius: 50%;
+}
+.round3{
+	left: 30%;
+	width: 7vh;
+	bottom: 5%;
+	height: 7vh;
+	border-radius: 50%;
+	position: absolute;
+}
+
 .innerDiv:hover{
-    box-shadow: 0px 0px 10px 5px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 0px 25px 20px rgba(34, 60, 80, 0.2);
+}
+.innerDiv:hover .round1{
+	width: 25vh;
+	height: 25vh;
+}
+.innerDiv:hover .round2{
+	width: 15vh;
+	height: 15vh;
+}
+.innerDiv:hover .round3{
+	width: 10vh;
+	height: 10vh;
 }
 .icon{
-    font-size: 20px;
-    color: rgb(118, 109, 255);
+	vertical-align: baseline;
 }
 .skills{
     width: 100%;
+}
+.skills:hover .progres{
+	animation: barAnim 4s;
 }
 .skill{
     margin: 10px 30px;
@@ -55,6 +106,7 @@
 .progresBorder{
     padding: 5px;
     border-radius: 15px;
+	background-color: rgb(232, 232, 232);;
     border: 1px solid rgb(238, 238, 238);
 }
 .progres{
@@ -68,4 +120,9 @@
     vertical-align: middle;
     align-self: center;
     background: linear-gradient(90deg, rgb(118, 109, 255) 0%, rgb(136, 243, 255) 100%);
+}
+@keyframes barAnim {
+	from{width: 0%;}
+	to{width: 100%;}
+	
 }
