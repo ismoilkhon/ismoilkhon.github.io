@@ -1,5 +1,5 @@
 import './style.css'
-import { FaChevronRight, FaFacebook, FaInstagram, FaLinkedin, FaTelegramPlane } from 'react-icons/fa'
+import { FaChevronRight, FaFacebook, FaGithub, FaLinkedinIn, FaTelegram } from 'react-icons/fa'
 
 export const Contact = () => {
     return (
@@ -8,7 +8,6 @@ export const Contact = () => {
                 <div className="contactItem">
                     <h3>About Me</h3>
                     <p>Do you want to be even more successful? Learn to love learning and <br /> growth. The more effort you put into improving your skills</p>
-                    <p>Copyright ©<script>document.write(new Date().getFullYear());</script>2022 All rights reserved | This template is made  by <a href="/" target="_blank">Ismoil</a></p>
                 </div>
                 <div className="contactItem">
                     <h3>Newsletter</h3>
@@ -23,14 +22,14 @@ export const Contact = () => {
                     <h3>Follow Me</h3>
                     <p>Let us be sicial</p>
                     <div className='iconGroup'>
-                        <FaFacebook/>
-                        <FaInstagram/>
-                        <FaTelegramPlane/>
-                        <FaLinkedin/>
+						<a href='https://www.facebook.com/12ghost28bi'><FaFacebook /></a>
+						<a href='https://github.com/ismoilkhon'><FaGithub /></a>
+						<a href='https://www.linkedin.com/in/ismoilkhon-bakhromov-b5b248224'><FaLinkedinIn /></a>
+						<a href='https://t.me/Ghostman_12_28'><FaTelegram /></a>
                     </div>
-
                 </div>
             </div>
+			<span>Copyright ©<script>document.write(new Date().getFullYear());</script>2022 All rights reserved | This template is made  by <a href="/" target="_blank">Ismoil</a></span>
         </div>
     );
 }

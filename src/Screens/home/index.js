@@ -24,14 +24,6 @@ export const Home = () => {
 						<li><EmailIcon /> <a> ismoilkhon.bakhromov@mail.ru</a></li>
 						<li><InfoIcon />  <a>Namangan, Uzbekistan</a></li>
 					</ul>
-
-					<ul className='links'>
-						<li> <a href='https://www.facebook.com/12ghost28bi'><FaFacebook /></a> </li>
-						<li> <a href='https://github.com/ismoilkhon'><FaGithub /></a> </li>
-						<li> <a href='https://www.linkedin.com/in/ismoilkhon-bakhromov-b5b248224'><FaLinkedinIn /></a> </li>
-						<li> <a href='https://t.me/Ghostman_12_28'><FaTelegram /></a> </li>
-					</ul>
-
 				</main>
 			</main>
 	);
