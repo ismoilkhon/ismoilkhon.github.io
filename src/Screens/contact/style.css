@@ -32,8 +32,11 @@
 }
 
 .contactItems {
+	width: 100%;
+	padding: 0% 5%;
     display: flex;
 	text-align: left;
+
     justify-content: space-evenly;
 }
 

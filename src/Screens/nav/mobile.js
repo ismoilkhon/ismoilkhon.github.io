@@ -1,10 +1,10 @@
 import { useState } from 'react'
-import { FaBars } from 'react-icons/fa'
+import { FaBars, FaTimes } from 'react-icons/fa'
 import './style.css'
 export const MobileBar = () => {
 
 	const [open, setOpen] = useState('open')
-	function openMenu(){
+	function openMenu() {
 		open === 'open' ? setOpen('close') : setOpen('open')
 	}
 
@@ -14,13 +14,16 @@ export const MobileBar = () => {
 				<li><strong>Ismoil</strong></li>
 			</ul>
 			<ul>
-				<li onClick={ openMenu }><FaBars/></li>
+				<li onClick={openMenu}><FaBars /></li>
 				<li>
 					<ul className={open}>
-						<li onClick={openMenu}><a href="#home">Home</a></li>
-						<li onClick={openMenu}><a href="#about">About</a></li>
-						<li onClick={openMenu}><a href="#services">Services</a></li>
-						<li onClick={openMenu}><a href="#contact">Contact</a></li>
+						<li onClick={openMenu}><h1><FaTimes /></h1></li>
+						<li>
+						<h2 onClick={openMenu}><a href="#home">Home</a></h2>
+						<h2 onClick={openMenu}><a href="#about">About</a></h2>
+						<h2 onClick={openMenu}><a href="#services">Services</a></h2>
+						<h2 onClick={openMenu}><a href="#contact">Contact</a></h2>
+						</li>
 					</ul>
 				</li>
 			</ul>

@@ -5,7 +5,7 @@ export const About = () => {
 		<div className="aboutCont">
 			<div className="container" id='about'>
 				<div className="aboutInfo">
-					<h4>About myself</h4>
+					<h2>About myself</h2>
 					<p>As a student, I have been studying at the Tashkent University of Information Technologies for over two years. While my university years, I have learned many skills that every front-end software engineer needs. These include HTML, CSS, Javascript, and React.</p>
 					<div className="grid">
 						<div className="innerDiv">
@@ -33,6 +33,7 @@ export const About = () => {
 				</div>
 
 				<div className="skills">
+					<h2>Skills</h2>
 					<div className='skill'>
 						<h6>HTML 90%</h6>
 						<div className='progresBorder'>

@@ -11,7 +11,7 @@ function App() {
 
 	return (
 		<div className="App">
-			{ window.innerWidth > 500 ? <NavBar /> : <MobileBar /> }
+			{window.innerWidth > 500 ? <NavBar /> : <MobileBar />}
 			<Home />
 			<About />
 			{/* <Education /> */}

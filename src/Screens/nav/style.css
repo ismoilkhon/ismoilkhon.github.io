@@ -1,17 +1,24 @@
 
 .mobile{
 	width: 91%;
-	margin: 0% 6%;
+	margin-left: 6%;
+	position: relative;
 }
 .close{
-	top: 5%;
-	left: -0%;
 	width: 100vw;
-	height: 100vh; 
+	height: 100vh;
 	display: flex;
-	position: absolute;
 	flex-direction: column;
-	background-color: #000000b2;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 15;
+	background-color: black;
+}
+.close > li:nth-child(1){
+	align-self: flex-end;
+	margin: 3%;
+	padding: 5%;
 }
 .open{
 	display: none;
