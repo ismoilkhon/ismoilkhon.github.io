@@ -4,23 +4,23 @@
 	margin: 0% 10%;
 }
 .close{
-	display: flex;
-	flex-direction: column;
-	position: absolute;
-	width: 100vw;
-	height: 100vh; 
 	top: 5%;
 	left: -0%;
-	background-color: #555758b2;
+	width: 100vw;
+	height: 100vh; 
+	display: flex;
+	position: absolute;
+	flex-direction: column;
+	background-color: #000000b2;
 }
 .open{
 	display: none;
 }
 .main {
-    width: 100%;
-	padding: 1% 7%;
 	margin: 0%;
+    width: 100%;
 	display: flex;
+	padding: 1% 7%;
 	align-items: center;
 }
 

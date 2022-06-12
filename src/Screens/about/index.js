@@ -9,23 +9,23 @@ export const About = () => {
 					<p>As a student, I have been studying at the Tashkent University of Information Technologies for over two years. While my university years, I have learned many skills that every front-end software engineer needs. These include HTML, CSS, Javascript, and React.</p>
 					<div className="grid">
 						<article className="innerDiv">
-							<article className="round1"></article>
-							<article className="round2"></article>
-							<article className="round3"></article>
+							<article className="round1" />
+							<article className="round2" />
+							<article className="round3" />
 							<h1>$2.5M</h1>
 							<h5><FaDatabase className='icon' /> Total Donation</h5>
 						</article>
 						<article className="innerDiv">
-							<article className="round1"></article>
-							<article className="round2"></article>
-							<article className="round3"></article>
+							<article className="round1" />
+							<article className="round2" />
+							<article className="round3" />
 							<h1>1465</h1>
 							<h5><FaBook className='icon' /> Total Ptojects</h5>
 						</article>
 						<article className="innerDiv">
-							<article className="round1"></article>
-							<article className="round2"></article>
-							<article className="round3"></article>
+							<article className="round1" />
+							<article className="round2" />
+							<article className="round3" />
 							<h1>3965</h1>
 							<h5><FaUsers className='icon' /> Total Volunteers</h5>
 						</article>

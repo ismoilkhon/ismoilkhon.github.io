@@ -7,15 +7,16 @@
 	}
 }
 .img-cont{
-	margin: 4% 3%;
 	padding: 0%;
+	width: 100%;
+	height: 100%;
+	margin: 4% 3%;
+	align-self: center;
 }
 
 .cont {
     display: flex;
     margin: 0% 6%;
-    /* border-radius: 15px;
-    box-shadow: -5px 20px 80px 10px rgba(102, 138, 165, 0.24); */
 }
 
 .img {
@@ -25,9 +26,12 @@
 }
 .second {
 	width: 100%;
+	height: 100%;
 	padding: 4% 0%;
     text-align: left;
+	position: relative;
 }
+
 .second > *{
     margin-bottom: 5%;
 }
@@ -40,7 +44,7 @@
 .info li *{
     width: 20;
     height: 20;
-    color: rgb(118, 109, 255);
+    color: teal;
 }
 .info li a{
     font-size: 18px;
@@ -49,21 +53,16 @@
 }
 .links {
     display: flex;
-    justify-content:flex-start;
     align-items: center;
-    margin: 20px;
+	justify-content: space-evenly;
 }
 .links li {
+    color: teal;
     cursor: pointer;
     list-style: none;
-    font-size: larger;
-    border-radius: 5px;
-    padding: 5px 10px;
     margin-right: 15px;
-    color: rgb(119, 119, 119);
-    background-color: #E8E8E8;
+	font-size: 1.5em;
 }
 .links li:hover{
-    color: azure;
-    background: linear-gradient(90deg, rgb(118, 109, 255) 0%, rgb(136, 243, 255) 100%);
+	transition: all 0.3s ease-out;
 }

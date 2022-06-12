@@ -7,26 +7,22 @@
     }
 }
 @media only screen and (max-width: 400px){
-    /* .outerDiv{
-        flex-direction: column;
-        align-items: center;
-    } */
     .innerDiv{
+		width: 70%;
         margin-bottom: 5%;
-        width: 70%;
     }
 }
 .aboutCont{
 	width: 100%;
 	display: flex;
-	justify-content: center;
     align-items: center;
+	justify-content: center;
 }
 .container{
     width: 100%;
     display: flex;
-	flex-direction: column;
     margin: 125px 0;
+	flex-direction: column;
 }
 .aboutInfo {
     width: 100%;
@@ -34,11 +30,11 @@
     text-align: center;
 }
 .innerDiv{
-	position: relative;
-	overflow: hidden;
-	z-index: 1;
 	margin: 3%;
-	transition: all 700ms ease-out;
+	z-index: 1;
+	overflow: hidden;
+	position: relative;
+	transition: all 300ms ease-out;
 }
 .innerDiv > h1{
 	margin: 5% 0;
@@ -48,7 +44,7 @@
 	margin: 0;
 	padding: 0%;
 	z-index: -1;
-	transition: all 700ms ease-out;
+	transition: all 300ms ease-out;
 
 }
 .round1{
@@ -116,9 +112,9 @@
 }
 .progresBar{
     height: 16px;
+    align-self: center;
     border-radius: 8px;
     vertical-align: middle;
-    align-self: center;
     background: linear-gradient(90deg, rgb(118, 109, 255) 0%, rgb(136, 243, 255) 100%);
 }
 @keyframes barAnim {

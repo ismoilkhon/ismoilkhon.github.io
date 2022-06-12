@@ -11,45 +11,28 @@
     }
 
     .contactItems>* {
-        margin-bottom: 30px;
+        padding: 0 20px;
         display: flex;
+        margin-bottom: 30px;
         align-items: center;
         flex-direction: column;
         justify-content: space-evenly;
-        padding: 0 20px;
     }
 }
 
 .contact {
     width: 100%;
+	color: azure;
     background-color: black;
 }
 
 .contactItems {
     width: 90%;
-    padding-top: 10%;
     display: flex;
     margin-left: 5%;
+    padding: 5% 0%;
     justify-content: space-evenly;
 }
-
-.contactItem h3 {
-    color: #fff;
-    font-size: 25px;
-    font-weight: bold;
-    font-family: "Roboto", sans-serif;
-    margin-bottom: 0;
-}
-
-.contactItem p {
-    font-size: 16px;
-	max-width: 350px;
-    line-height: 24px;
-    font-family: "Roboto", sans-serif;
-    color: #777;
-    margin-top: 20px;
-}
-
 .input {
     display: flex;
 	align-items: center;
@@ -68,12 +51,11 @@
 }
 
 .input button {
-    border-radius: 0;
-    /* background: linear-gradient(0deg, #766dff 0%, #88f3ff 100%); */
-    width: 50px;
-    /* height: 40px; */
-    cursor: pointer;
+    width: 60px;
     color: #fff;
+    cursor: pointer;
+    border-radius: 0;
+	align-self: center;
 }
 
 .iconGroup {
@@ -100,11 +82,11 @@
     }
 
     .contactItems>* {
-        margin-bottom: 30px;
-        display: flex;
+		display: flex;
+        padding: 0 20px;
         align-items: center;
+        margin-bottom: 30px;
         flex-direction: column;
         justify-content: space-evenly;
-        padding: 0 20px;
     }
 }
